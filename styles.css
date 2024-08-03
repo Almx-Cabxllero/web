@@ -1,0 +1,100 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffdde8;
+}
+.container{
+    width: 1200px;
+    background: #ffdde8;
+    margin: 10px auto;
+}
+.logo{
+    
+    float: right;
+
+}
+.superior{
+    width: 1350px;
+    background: #e40085;
+    overflow: hidden;
+}
+
+img{
+    width: 1299px;
+    padding: 25px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 20px 90px;
+    border: 4px solid #ffdde8;
+    background-color: #e40085;
+}
+
+a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+li:hover{
+    background-color: rgb(170, 0, 65);
+    
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    80% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+.titulo {
+    position: absolute;
+}
+
+.titulo img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 160px 0px 0px 100px;
+}
+
+.titulo h1{
+    float: left;
+    font-size: 45px;
+    font-family: tahoma;
+    color: #e40085;
+    padding: 280px 0px 0px 30px;
+}
+*/estilos para el cuerpo/
+.cuerpo{
+    overflow: hidden;
+    margin: 0px 0px 0px 140px;
+}
+
+.titulo2{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #e40085;
+    font-size: 35px;
+    margin: 0px 0px 0px 0px;
+}
